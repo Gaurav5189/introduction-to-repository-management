@@ -29,7 +29,6 @@ env:
 jobs:
   update_readme:
     name: Update README with congratulations
-    if: ${{ inputs['update-readme-with-congratulations'] == true }}
     runs-on: ubuntu-latest
 
     steps:
